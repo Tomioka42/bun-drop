@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import ProductCard from "./ProductCard";
 
 function ProductList() {
-  const [allProducts, setAllProducts] = useState([]);
+  const [,setAllProducts] = useState([]);
   const [filteredProducts, setFilteredProducts] = useState([]);
   const [cart, setCart] = useState(getCartFromLocalStorage());
 

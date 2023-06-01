@@ -1,0 +1,160 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "name": "Classic Burger",
+      "image": "/images/burger-1.png",
+      "description": "A juicy beef patty topped with lettuce, tomato, onion, and pickles with a side of fries.",
+      "price": 100,
+      "ingredients": ["Beef patty", "Lettuce", "Tomato", "Onion", "Pickles"]
+    },
+    {
+      "id": 2,
+      "name": "Cheeseburger",
+      "image": "/images/burger-3.png",
+      "description": "Our classic burger topped with melted cheddar cheese with a side of fries.",
+      "price": 109,
+      "ingredients": [
+        "Beef patty",
+        "Lettuce",
+        "Tomato",
+        "Onion",
+        "Pickles",
+        "Cheddar cheese"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Bacon Burger",
+      "image": "/images/burger-4.png",
+      "description": "A delicious burger topped with crispy bacon slices with a side of fries.",
+      "price": 119,
+      "ingredients": [
+        "Beef patty",
+        "Lettuce",
+        "Tomato",
+        "Onion",
+        "Pickles",
+        "Bacon"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Mushroom Swiss Burger",
+      "image": "/images/burger-5.png",
+      "description": "A savory burger topped with sautéed mushrooms and Swiss cheese with a side of fries.",
+      "price": 129,
+      "ingredients": [
+        "Beef patty",
+        "Lettuce",
+        "Tomato",
+        "Onion",
+        "Pickles",
+        "Mushrooms",
+        "Swiss cheese"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Veggie Burger",
+      "image": "/images/burger-6.png",
+      "description": "A vegetarian burger made with a plant-based patty and fresh veggies with a side of fries.",
+      "price": 100,
+      "ingredients": [
+        "Plant-based patty",
+        "Lettuce",
+        "Tomato",
+        "Onion",
+        "Pickles"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Spicy Chicken Burger",
+      "image": "/images/burger-7.png",
+      "description": "A flavorful chicken patty topped with spicy sauce and jalapeños with a side of fries.",
+      "price": 109,
+      "ingredients": [
+        "Chicken patty",
+        "Lettuce",
+        "Tomato",
+        "Onion",
+        "Spicy sauce",
+        "Jalapeños"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "BBQ Bacon Cheeseburger",
+      "image": "/images/burger-8.png",
+      "description": "A mouthwatering burger topped with tangy BBQ sauce, crispy bacon, and melted cheese with a side of fries.",
+      "price": 129,
+      "ingredients": [
+        "Beef patty",
+        "Lettuce",
+        "Tomato",
+        "Onion",
+        "Pickles",
+        "Bacon",
+        "Melted cheese",
+        "BBQ sauce"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "French fries",
+      "image": "/images/fries-1.png",
+      "description": "Hella good fries",
+      "price": 30,
+      "ingredients": ["Potato", "Oil", "French fries seasoning"]
+    },
+    {
+      "id": 9,
+      "name": "Sweet potato fries",
+      "image": "/images/fries-2.png",
+      "description": "Hella good Sweet potato fries",
+      "price": 35,
+      "ingredients": ["Sweet potato", "Oil", "French fries seasoning"]
+    },
+    {
+      "id": 10,
+      "name": "Oreo Milkshake",
+      "image": "/images/milkshake-1.png",
+      "description": "Hella good oreo milkshake that will make you booty shake",
+      "price": 50,
+      "ingredients": ["Oreo", "Milk", "vanilla ice cream"]
+    },
+    {
+      "id": 11,
+      "name": "Frida Soda",
+      "image": "/images/soda-1.png",
+      "description": "refreshing soda",
+      "price": 20,
+      "ingredients": [""]
+    },
+    {
+      "id": 12,
+      "name": "Olipop Soda",
+      "image": "/images/soda-2.png",
+      "description": "refreshing soda",
+      "price": 20,
+      "ingredients": [""]
+    },
+    {
+      "id": 13,
+      "name": "Calpis Soda",
+      "image": "/images/soda-3.png",
+      "description": "refreshing soda",
+      "price": 20,
+      "ingredients": [""]
+    },
+    {
+      "id": 14,
+      "name": "Positiv energy Soda",
+      "image": "/images/soda-4.png",
+      "description": "refreshing soda",
+      "price": 20,
+      "ingredients": [""]
+    }
+  ]
+}

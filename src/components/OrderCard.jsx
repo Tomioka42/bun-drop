@@ -15,7 +15,6 @@ function OrderCard() {
 
   const navigate = useNavigate();
   const handleClick = () => {
-    debugger;
     if (paymentMethod === "Card") {
       if (cvvOk && cardNumOk) {
         if (

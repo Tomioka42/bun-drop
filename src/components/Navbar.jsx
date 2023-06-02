@@ -2,8 +2,17 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
+import { useNavigate } from "react-router-dom";
 
 function Navbar() {
+  const navigate = useNavigate();
+  const handleClick = () => {
+    let isCartSet = localStorage.getItem("cart") !== null;
+    if (isCartSet) {
+      navigate("/cart");
+    }
+  };
+
   return (
     <div className="nav-container">
       <div className="flex-container">
@@ -16,12 +25,11 @@ function Navbar() {
         </Link>
       </div>
       <div>
-        <Link to="/cart">
-          <FontAwesomeIcon
-            icon={faCartShopping}
-            style={{ color: "#ffa07a", padding: 30 }}
-          />
-        </Link>
+        <FontAwesomeIcon
+          icon={faCartShopping}
+          onClick={handleClick}
+          style={{ color: "#ffa07a", padding: 30 }}
+        />
       </div>
     </div>
   );

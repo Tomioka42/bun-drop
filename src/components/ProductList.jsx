@@ -7,6 +7,7 @@ function ProductList() {
   const [cart, setCart] = useState(getCartFromLocalStorage());
 
   useEffect(() => {
+    debugger;
     fetch("http://localhost:7000/menu")
       .then((res) => res.json())
       .then((data) => {

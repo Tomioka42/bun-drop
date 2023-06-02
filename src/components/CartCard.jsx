@@ -24,10 +24,11 @@ function CartCard() {
   }, [filteredItems]);
 
   function handleQuantityChange(e) {
+    debugger;
     const itemId = parseInt(e.currentTarget.id);
 
     const updatedCart = previousQuantity
-      .forEach((i) => {
+      .map((i) => {
         if (itemId === i.id) {
           if (e.target.value > i.quantity) {
             return { ...i, quantity: i.quantity + 1 };
@@ -41,6 +42,7 @@ function CartCard() {
         } else {
           return i;
         }
+        return i;
       })
       .filter(Boolean);
 

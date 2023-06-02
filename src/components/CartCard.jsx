@@ -24,7 +24,6 @@ function CartCard() {
   }, [filteredItems]);
 
   function handleQuantityChange(e) {
-    debugger;
     const itemId = parseInt(e.currentTarget.id);
 
     const updatedCart = previousQuantity
@@ -33,7 +32,7 @@ function CartCard() {
           if (e.target.value > i.quantity) {
             return { ...i, quantity: i.quantity + 1 };
           } else if (e.target.value < i.quantity) {
-            if (e.target.value === 0) {
+            if (e.target.value === "0") {
               removeFromCart(itemId);
             } else {
               return { ...i, quantity: i.quantity - 1 };
@@ -42,7 +41,6 @@ function CartCard() {
         } else {
           return i;
         }
-        return i;
       })
       .filter(Boolean);
 
